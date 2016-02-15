@@ -1,0 +1,70 @@
+02:51:40,576 INFO  org.apache.flink.client.CliFrontend                           - --------------------------------------------------------------------------------
+02:51:40,577 INFO  org.apache.flink.client.CliFrontend                           -  Starting Command Line Client (Version: 0.10.2, Rev:e525eb2f, Date:08.02.2016 @ 14:42:53 UTC)
+02:51:40,577 INFO  org.apache.flink.client.CliFrontend                           -  Current user: ajmssc
+02:51:40,577 INFO  org.apache.flink.client.CliFrontend                           -  JVM: Java HotSpot(TM) 64-Bit Server VM - Oracle Corporation - 1.8/25.31-b07
+02:51:40,577 INFO  org.apache.flink.client.CliFrontend                           -  Maximum heap size: 1820 MiBytes
+02:51:40,578 INFO  org.apache.flink.client.CliFrontend                           -  JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -  Hadoop version: 2.7.0
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -  JVM Options:
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -     -Dlog.file=/Users/ajmssc/projects/flink/flink-0.10.2/log/flink-ajmssc-client-Jean-Marcs-MBP.log
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -     -Dlog4j.configuration=file:/Users/ajmssc/projects/flink/flink-0.10.2/conf/log4j-cli.properties
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -     -Dlogback.configurationFile=file:/Users/ajmssc/projects/flink/flink-0.10.2/conf/logback.xml
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -  Program Arguments:
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -     run
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -     target/test-1.0-SNAPSHOT.jar
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           -  Classpath: /Users/ajmssc/projects/flink/flink-0.10.2/lib/flink-dist-0.10.2.jar:/Users/ajmssc/projects/flink/flink-0.10.2/lib/flink-python-0.10.2.jar:/Users/ajmssc/projects/flink/flink-0.10.2/lib/log4j-1.2.17.jar:/Users/ajmssc/projects/flink/flink-0.10.2/lib/slf4j-log4j12-1.7.7.jar::/Users/ajmssc/projects/docker-hadoop/config:
+02:51:40,580 INFO  org.apache.flink.client.CliFrontend                           - --------------------------------------------------------------------------------
+02:51:40,581 INFO  org.apache.flink.client.CliFrontend                           - Using configuration directory /Users/ajmssc/projects/flink/flink-0.10.2/conf
+02:51:40,581 INFO  org.apache.flink.client.CliFrontend                           - Trying to load configuration file
+02:51:40,785 INFO  org.apache.flink.client.CliFrontend                           - Running 'run' command.
+02:51:40,793 INFO  org.apache.flink.client.CliFrontend                           - Building program from JAR file
+02:51:40,846 INFO  org.apache.flink.client.program.Client                        - Starting client actor system
+02:51:40,847 INFO  org.apache.flink.runtime.client.JobClient                     - Starting JobClient actor system
+02:51:41,137 INFO  akka.event.slf4j.Slf4jLogger                                  - Slf4jLogger started
+02:51:41,171 INFO  Remoting                                                      - Starting remoting
+02:51:41,308 INFO  Remoting                                                      - Remoting started; listening on addresses :[akka.tcp://flink@127.0.0.1:59847]
+02:51:41,313 INFO  org.apache.flink.runtime.client.JobClient                     - Started JobClient actor system at 127.0.0.1:59847
+02:51:41,314 INFO  org.apache.flink.client.CliFrontend                           - Starting execution of program
+02:51:41,314 INFO  org.apache.flink.client.program.Client                        - Starting program in interactive mode
+02:51:41,411 INFO  org.apache.kafka.clients.producer.ProducerConfig              - ProducerConfig values: 
+	compression.type = none
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	metadata.fetch.timeout.ms = 60000
+	acks = 1
+	batch.size = 16384
+	reconnect.backoff.ms = 10
+	bootstrap.servers = [192.168.99.100:32769]
+	receive.buffer.bytes = 32768
+	retry.backoff.ms = 100
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	retries = 0
+	max.request.size = 1048576
+	block.on.buffer.full = true
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	metrics.sample.window.ms = 30000
+	send.buffer.bytes = 131072
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	linger.ms = 0
+	client.id = 
+
+02:51:41,718 INFO  org.apache.flink.runtime.client.JobClientActor                - Received job Flink Kafka Producer (6d86424d1a7dcdd426e3eb98d3cf1a72).
+02:51:41,719 INFO  org.apache.flink.runtime.client.JobClientActor                - Could not submit job Flink Kafka Producer (6d86424d1a7dcdd426e3eb98d3cf1a72), because there is no connection to a JobManager.
+02:51:41,819 INFO  org.apache.flink.runtime.client.JobClientActor                - Connected to new JobManager akka.tcp://flink@127.0.0.1:6123/user/jobmanager.
+02:51:41,823 INFO  org.apache.flink.runtime.client.JobClientActor                - Sending message to JobManager akka.tcp://flink@127.0.0.1:6123/user/jobmanager to submit job Flink Kafka Producer (6d86424d1a7dcdd426e3eb98d3cf1a72) and wait for progress
+02:51:41,825 INFO  org.apache.flink.runtime.client.JobClientActor                - Upload jar files to job manager akka.tcp://flink@127.0.0.1:6123/user/jobmanager.
+02:51:41,995 INFO  org.apache.flink.runtime.client.JobClientActor                - Submit job to the job manager akka.tcp://flink@127.0.0.1:6123/user/jobmanager.
+02:51:42,036 INFO  org.apache.flink.runtime.client.JobClientActor                - Job was successfully submitted to the JobManager akka.tcp://flink@127.0.0.1:6123/user/jobmanager.
+02:51:42,038 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Job execution switched to status RUNNING.
+02:51:42,042 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Source: Custom Source(1/1) switched to SCHEDULED 
+02:51:42,044 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Source: Custom Source(1/1) switched to DEPLOYING 
+02:51:42,045 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Sink: Unnamed(1/2) switched to SCHEDULED 
+02:51:42,046 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Sink: Unnamed(1/2) switched to DEPLOYING 
+02:51:42,047 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Sink: Unnamed(2/2) switched to SCHEDULED 
+02:51:42,048 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Sink: Unnamed(2/2) switched to DEPLOYING 
+02:51:42,174 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Source: Custom Source(1/1) switched to RUNNING 
+02:51:42,175 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Sink: Unnamed(1/2) switched to RUNNING 
+02:51:42,176 INFO  org.apache.flink.runtime.client.JobClientActor                - 02/13/2016 02:51:42	Sink: Unnamed(2/2) switched to RUNNING 

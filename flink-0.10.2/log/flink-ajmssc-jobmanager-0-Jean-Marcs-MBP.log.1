@@ -1,0 +1,64 @@
+22:40:45,310 WARN  org.apache.hadoop.util.NativeCodeLoader                       - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+22:40:45,431 INFO  org.apache.flink.runtime.jobmanager.JobManager                - --------------------------------------------------------------------------------
+22:40:45,431 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  Starting JobManager (Version: 0.10.2, Rev:e525eb2f, Date:08.02.2016 @ 14:42:53 UTC)
+22:40:45,431 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  Current user: ajmssc
+22:40:45,431 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  JVM: Java HotSpot(TM) 64-Bit Server VM - Oracle Corporation - 1.8/25.31-b07
+22:40:45,431 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  Maximum heap size: 736 MiBytes
+22:40:45,431 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  Hadoop version: 2.7.0
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  JVM Options:
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     -Xms768m
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     -Xmx768m
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     -Dlog.file=/Users/ajmssc/projects/flink/flink-0.10.2/log/flink-ajmssc-jobmanager-0-Jean-Marcs-MBP.log
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     -Dlog4j.configuration=file:/Users/ajmssc/projects/flink/flink-0.10.2/conf/log4j.properties
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     -Dlogback.configurationFile=file:/Users/ajmssc/projects/flink/flink-0.10.2/conf/logback.xml
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  Program Arguments:
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     --configDir
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     /Users/ajmssc/projects/flink/flink-0.10.2/conf
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     --executionMode
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     local
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     --streamingMode
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -     batch
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                -  Classpath: /Users/ajmssc/projects/flink/flink-0.10.2/lib/flink-dist-0.10.2.jar:/Users/ajmssc/projects/flink/flink-0.10.2/lib/flink-python-0.10.2.jar:/Users/ajmssc/projects/flink/flink-0.10.2/lib/log4j-1.2.17.jar:/Users/ajmssc/projects/flink/flink-0.10.2/lib/slf4j-log4j12-1.7.7.jar::/Users/ajmssc/projects/docker-hadoop/config:
+22:40:45,435 INFO  org.apache.flink.runtime.jobmanager.JobManager                - --------------------------------------------------------------------------------
+22:40:45,643 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Loading configuration from /Users/ajmssc/projects/flink/flink-0.10.2/conf
+22:40:45,658 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Staring JobManager without high-availability
+22:40:45,665 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting JobManager on 127.0.0.1:6123 with execution mode LOCAL and streaming mode BATCH_ONLY
+22:40:45,694 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Security is not enabled. Starting non-authenticated JobManager.
+22:40:45,695 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting JobManager
+22:40:45,695 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting JobManager actor system at 127.0.0.1:6123
+22:40:46,155 INFO  akka.event.slf4j.Slf4jLogger                                  - Slf4jLogger started
+22:40:46,210 INFO  Remoting                                                      - Starting remoting
+22:40:46,418 INFO  Remoting                                                      - Remoting started; listening on addresses :[akka.tcp://flink@127.0.0.1:6123]
+22:40:46,426 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting JobManger web frontend
+22:40:46,455 INFO  org.apache.flink.runtime.webmonitor.WebRuntimeMonitor         - Using directory /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/flink-web-f55e1146-c834-4d59-9d4e-e8247e14f5c1 for the web interface files
+22:40:46,455 INFO  org.apache.flink.runtime.webmonitor.WebMonitorUtils           - Determined location of JobManager log file: /Users/ajmssc/projects/flink/flink-0.10.2/log/flink-ajmssc-jobmanager-0-Jean-Marcs-MBP.log
+22:40:46,455 INFO  org.apache.flink.runtime.webmonitor.WebMonitorUtils           - Determined location of JobManager stdout file: /Users/ajmssc/projects/flink/flink-0.10.2/log/flink-ajmssc-jobmanager-0-Jean-Marcs-MBP.out
+22:40:46,772 INFO  org.apache.flink.runtime.webmonitor.WebRuntimeMonitor         - Web frontend listening at 0:0:0:0:0:0:0:0:8081
+22:40:46,773 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting JobManager actor
+22:40:46,780 INFO  org.apache.flink.runtime.blob.BlobServer                      - Created BLOB server storage directory /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/blobStore-c21af2a4-2940-40b6-bc1c-fa2c483d95cf
+22:40:46,783 INFO  org.apache.flink.runtime.blob.BlobServer                      - Started BLOB server at 0.0.0.0:54108 - max concurrent requests: 50 - max backlog: 1000
+22:40:46,796 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting embedded TaskManager for JobManager's LOCAL execution mode
+22:40:46,800 INFO  org.apache.flink.runtime.jobmanager.MemoryArchivist           - Started memory archivist akka://flink/user/archive
+22:40:46,800 INFO  org.apache.flink.runtime.jobmanager.JobManager                - Starting JobManager at akka.tcp://flink@127.0.0.1:6123/user/jobmanager.
+22:40:46,806 INFO  org.apache.flink.runtime.jobmanager.JobManager                - JobManager akka.tcp://flink@127.0.0.1:6123/user/jobmanager was granted leadership with leader session ID None.
+22:40:46,810 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Messages between TaskManager and JobManager have a max timeout of 100000 milliseconds
+22:40:46,813 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Temporary file directory '/var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T': total 232 GB, usable 44 GB (18.97% usable)
+22:40:46,835 INFO  org.apache.flink.runtime.io.network.buffer.NetworkBufferPool  - Allocated 64 MB for network buffer pool (number of memory segments: 2048, bytes per segment: 32768).
+22:40:46,950 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Using 0.7 of the currently free heap space for Flink managed heap memory (464 MB).
+22:40:47,433 INFO  org.apache.flink.runtime.io.disk.iomanager.IOManager          - I/O manager uses directory /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/flink-io-742ad217-503f-4694-bd51-49fc05e4039e for spill files.
+22:40:47,436 INFO  org.apache.flink.runtime.webmonitor.WebRuntimeMonitor         - Starting with JobManager akka.tcp://flink@127.0.0.1:6123/user/jobmanager on port 8081
+22:40:47,436 INFO  org.apache.flink.runtime.webmonitor.JobManagerRetriever       - New leader reachable under akka.tcp://flink@127.0.0.1:6123/user/jobmanager:null.
+22:40:47,447 INFO  org.apache.flink.runtime.filecache.FileCache                  - User file cache uses directory /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/flink-dist-cache-d970c9af-87f5-4022-9dcd-e6270b010a89
+22:40:47,618 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Starting TaskManager actor at akka://flink/user/taskmanager#-1444897495.
+22:40:47,619 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - TaskManager data connection information: localhost (dataPort=54109)
+22:40:47,620 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - TaskManager has 1 task slot(s).
+22:40:47,621 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Memory usage stats: [HEAP: 555/736/736 MB, NON HEAP: 34/35/-1 MB (used/committed/max)]
+22:40:47,625 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Trying to register at JobManager akka.tcp://flink@127.0.0.1:6123/user/jobmanager (attempt 1, timeout: 500 milliseconds)
+22:40:47,629 INFO  org.apache.flink.runtime.instance.InstanceManager             - Registered TaskManager at localhost (akka://flink/user/taskmanager) as efbe70035648891cdd33074e0477371a. Current number of registered hosts is 1. Current number of alive task slots is 1.
+22:40:47,631 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Successful registration at JobManager (akka://flink/user/jobmanager), starting network stack and library cache.
+22:40:47,652 INFO  org.apache.flink.runtime.taskmanager.TaskManager              - Determined BLOB server address to be localhost/127.0.0.1:54108. Starting BLOB cache.
+22:40:47,653 INFO  org.apache.flink.runtime.blob.BlobCache                       - Created BLOB cache storage directory /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/blobStore-e7caa4ce-a1e9-41b6-8515-1a896cbcd254
+22:46:42,211 INFO  org.apache.flink.runtime.webmonitor.WebRuntimeMonitor         - Removing web root dir /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/flink-web-f55e1146-c834-4d59-9d4e-e8247e14f5c1
+22:46:42,218 INFO  org.apache.flink.runtime.io.disk.iomanager.IOManager          - I/O manager removed spill file directory /var/folders/s5/mz2p3kxj64l73xddrwfpm4r40000gn/T/flink-io-742ad217-503f-4694-bd51-49fc05e4039e
+22:46:42,218 INFO  org.apache.flink.runtime.blob.BlobServer                      - Stopped BLOB server at 0.0.0.0:54108

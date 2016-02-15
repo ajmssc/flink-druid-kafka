@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: flink-java-examples
+Implementation-Version: 0.10.2
+program-class: org.apache.flink.examples.java.wordcount.WordCount
+Implementation-Vendor-Id: org.apache.flink
+Built-By: ufuk
+Build-Jdk: 1.7.0_91
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: flink-java-examples
+Created-By: Apache Maven 3.0.5
+Specification-Version: 0.10.2
+Archiver-Version: Plexus Archiver
+
